@@ -49,10 +49,30 @@ class Bag
     end
 
     def contains?(type)
-        #need to iterate through it so use enumerable method
-        @candies.any? do |candy|
-            type == candy.type
+        #need to iterate through it so use enumerable method:
+
+        # option 1
+        # @candies.any? do |candy|
+        #     type == candy.type
+        # end
+
+        # option 2
+        @candies.each do |candy|
+            return true if candy.type == type
+            end
         end
+        false
+
+        # option 3
+        @candies.each do |candy|
+            if candy.type == type
+                return true
+            end
+        end
+        false
+        # if false is inside the .each method it'll return the array
+        # false after the end of the .each method will return false
+
     end
 
 end
