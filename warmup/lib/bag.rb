@@ -29,8 +29,12 @@ class Bag
     end
 
     def count
-        @candies.length
+         # 0
         # this is hard coding... not common!
+
+        # @candies.length
+        # @candies.count
+        @candies.size
     end
 
     # def candies
@@ -42,6 +46,13 @@ class Bag
 
     def add_candy(candy)
         @candies << candy
+    end
+
+    def contains?(type)
+        #need to iterate through it so use enumerable method
+        @candies.any? do |candy|
+            type == candy.type
+        end
     end
 
 end
