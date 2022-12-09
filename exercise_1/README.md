@@ -1,5 +1,8 @@
 # Exericse 1 - Adlington Road
 
+## TO FIND ALL ANSWERS CHECK OUT GITHUB: 
+# https://github.com/turingschool-examples/reaching-through-objects/tree/completed
+
 ## Instructions
 On "Adlington Road", there are many buildings with apartments for rent. You are the owner of these apartment buildings. You need a way to manage your apartments, schedule maintenance and upkeep, and charge rent. But, to start with, we need to be able to see where all the rooms are.
 

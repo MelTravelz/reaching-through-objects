@@ -1,6 +1,11 @@
 # Reaching Through Objects
 This repository is meant to be used in conjunction with the BE Mod 1 lesson called **Reaching Through Objects**.
 
+
+## TO FIND ALL ANSWERS CHECK OUT GITHUB: 
+# https://github.com/turingschool-examples/reaching-through-objects/tree/completed
+
+
 ## How to Use
 1. Fork, then clone your forked repository.
 1. Use the `warmup` directory to get a sense of the exercises.
